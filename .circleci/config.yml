@@ -20,7 +20,6 @@ default: @defaults
 
 version: 2
 jobs:
-  build:
    android_lint:
     <<: *defaults
     steps:
@@ -186,9 +185,6 @@ jobs:
       
       # run tests!
       - run: ./gradlew test
-
-
-
 
 
 

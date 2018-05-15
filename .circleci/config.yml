@@ -2,7 +2,7 @@
 #
 # Check https://circleci.com/docs/2.0/language-java/ for more details
 #
-default: @defaults
+default: &defaults
   docker:
         # specify the version you desire here
         - image: circleci/android:api-24-alpha
